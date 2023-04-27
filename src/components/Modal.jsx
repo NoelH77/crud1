@@ -48,7 +48,7 @@ reset, setIsUserIdToEdit, isUserIdToEdit, errors}) => {
                 message: "Minimo de 1 caracter",
               },
               pattern: {
-                value: /^[A-Za-z]+$/i,
+                value: /^[A-Za-z]+(\s[A-Za-z]+)*$/i,
                 message: "El nombre no es valido",
               },
             })}
@@ -75,7 +75,7 @@ reset, setIsUserIdToEdit, isUserIdToEdit, errors}) => {
                 message: "Minimo de 1 caracter",
               },
               pattern: {
-                value: /^[A-Za-z]+$/i,
+                value: /^[A-Za-z]+(\s[A-Za-z]+)*$/i,
                 message: "el Apellido no es valido",
               },
             })}
